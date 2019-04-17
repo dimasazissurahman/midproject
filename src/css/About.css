@@ -1,0 +1,36 @@
+.Container {
+  background-image: url("../Picture/Milkyway.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+.Navbar {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color:white;
+}
+#isi{
+  font-size: 15px;
+  height: 150px;
+  padding: 15px;
+  float: right;
+  text-align: right;
+  width: 500px;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding-left: 50%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 25px;
+  position: fixed;
+  background-color:aqua;
+}
